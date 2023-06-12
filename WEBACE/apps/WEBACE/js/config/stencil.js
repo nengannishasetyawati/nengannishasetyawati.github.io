@@ -131,10 +131,10 @@ App.config = App.config || {};
                 },
                 '.body': {
                     fill: 'transparent',
-                    rx: 2,
-                    ry: 2,
+                    rx: 1,
+                    ry: 1,
                     stroke: '#31d0c6',
-                    'stroke-width': 2,
+                    'stroke-width': 1,
                     'stroke-dasharray': '0',
                 },
                 image: {
@@ -182,7 +182,7 @@ App.config = App.config || {};
                     rx: 2,
                     ry: 2,
                     stroke: '#31d0c6',
-                    'stroke-width': 2,
+                    'stroke-width': 1,
                     'stroke-dasharray': '0'
                 },
                 image: {
@@ -357,7 +357,7 @@ App.config = App.config || {};
         {
             type: 'basic.Image',
             size: { width: 15, height: 10 },
-            paperSize: { width: 150, height: 75 },
+            paperSize: { width: 150, height: 85 },
             allowOrthogonalResize: false,
             attrs: {
                 '.': {
@@ -370,7 +370,7 @@ App.config = App.config || {};
                     rx: 2,
                     ry: 2,
                     stroke: '#31d0c6',
-                    'stroke-width': 2,
+                    'stroke-width': 1,
                     'stroke-dasharray': '0'
                 },
                 image: {
@@ -399,6 +399,30 @@ App.config = App.config || {};
                     xAlignment: 'middle'
     
                 },
+            }
+        },
+        {
+            type: 'basic.Image',
+            size: { width: 5, height: 5 },
+            paperSize: { width: 30, height: 30 },
+            allowOrthogonalResize: false,
+            attrs: {
+                '.': {
+                    'data-tooltip': 'Undeveloped',
+                    'data-tooltip-position': 'left',
+                    'data-tooltip-position-selector': '.joint-stencil'
+                },
+                '.body': {
+                    fill: 'transparent',
+                    rx: 2,
+                    ry: 2,
+                    stroke: '#31d0c6',
+                    'stroke-width': 2,
+                    'stroke-dasharray': '0'
+                },
+                image: {
+                    'xlink:href': 'assets/GSN-undeveloped.svg'
+                }
             }
         },
         
