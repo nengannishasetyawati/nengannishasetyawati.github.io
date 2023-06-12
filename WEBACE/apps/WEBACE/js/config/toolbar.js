@@ -189,6 +189,7 @@ App.config = App.config || {};
 
                 type: 'button',
                 name: 'tojson',
+                group: 'tojson',
                 text: 'Load JSON',
                 attrs: {
                     button: {
@@ -201,6 +202,7 @@ App.config = App.config || {};
             {
                 type: 'button',
                 name: 'save',
+                group: 'save',
                 text: 'Save as JSON',
                 attrs: {
                     button: {
@@ -212,10 +214,10 @@ App.config = App.config || {};
                 }
             },
 
-            {
-                type: 'separator',
-                group: 'help'
-            },
+            // {
+            //     type: 'separator',
+            //     group: 'help'
+            // },
 
           // button assurance cases rules
             {
