@@ -26,7 +26,9 @@ file, You can obtain one at http://jointjs.com/license/rappid_v2.txt
 }
 
 .joint-app.joint-theme-modern .app-title {
-    background: #30d0c6;
+    /* background: #30d0c6; */
+    background:solid lightgray;
+
 }
 .joint-app.joint-theme-modern .inspector-container {
     background: #383b61;
@@ -143,7 +145,8 @@ file, You can obtain one at http://jointjs.com/license/rappid_v2.txt
 
 /* Dark */
 .joint-app.joint-theme-dark .app-title {
-    background: #383c3f;
+    /* background: #383c3f; */
+    background: #5e6366;
     box-shadow: inset -2px -1px 0px #333;
 }
 .joint-app.joint-theme-dark .inspector-container {
